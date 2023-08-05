@@ -1,0 +1,110 @@
+body{
+    background-color: hsl(0, 0%, 86%)
+   
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+    max-width: 1100px;
+    height: 600px;
+    border-radius: 15px 15px 200px 15px;
+
+}
+
+
+.inputsection{
+    margin: 50px 30px 0px 30px;
+
+}
+
+.inputsection form{
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline ;
+}
+
+form label{
+    font-size: 16px;
+    font-family: Poppins-regular, sans-serif;
+    color:hsl(0, 1%, 44%);
+    font-weight :600;
+    letter-spacing: 3px;
+    margin-left: 40px;
+}
+
+
+
+form input{
+margin-top: 10px;
+width: 150px;
+height: 50px;
+border: 2px solid  hsl(0, 1%, 44%);
+border-radius: 8px;
+margin-left: 40px;
+}
+
+
+input::placeholder{
+    padding-left: 15px;
+    /* padding-top: 50%; */
+    font-size: larger;
+    color:hsl(0, 1%, 44%);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* .button{
+    position: absolute;
+} */
+
+.submitbtn{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto auto auto auto auto;
+}
+
+#hr{
+    grid-column-start: 1;
+    grid-column-end: 10;
+}
+
+#btn button{
+    background-color:  hsl(259, 100%, 65%);
+    padding: 12px;
+    margin-top: -30px;
+    border: none;
+    border-radius: 50%;
+}
+
+
+/* RESULT SECTION */
+
+
+.resultsection h1{
+    /* margin-left: 85px; */
+    font-size: 6rem;
+    margin:-45px 0px 0 85px ;
+    font-family: Poppins-ExtraBold, sans-serif;
+    font-weight: 900;
+    word-spacing: -1px;
+    color: hsl(0, 0%, 8%);
+    font-style: italic;
+}
+
+ span{
+       color: hsl(259, 100%, 65%);
+       /* letter-spacing: 13px; */
+       font-size: 6.5rem;
+}
+
+
+.error{
+    margin-left: 45px;
+    font-size: 16px;
+    margin-top: 5px;
+}
