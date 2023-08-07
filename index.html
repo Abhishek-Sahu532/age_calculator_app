@@ -19,23 +19,25 @@
 <body>
   <main>
     <section class="inputsection">
+      <p id="dateError" >abc</p>
       <form action="#">
+       
         <div class="day">
           <label for="day">DAY</label><br />
           <input type="number" name="day" id="day" placeholder="DD">
-          <p class="error">abc</p>
+          <p class="errorDay">abc</p>
         </div>
 
         <div class="month">
           <label for="month">MONTH</label><br />
           <input type="number" name="month" id="month" placeholder="MM"><br />
-          <p class="error">abc</p>
+          <p class="errorMonth">abc</p>
         </div>
 
         <div class="year">
           <label for="year">YEAR</label><br />
           <input type="number" name="'year" id="year" placeholder="YYYY">
-          <p class="error">abc</p>
+          <p class="errorYear">abc</p>
         </div>
 
       </form>
@@ -47,6 +49,9 @@
         <div id="btn">
           <button><img src="/assets/images/icon-arrow.svg" alt="Submit Button" />
           </button>
+        </div>
+        <div id="hr2">
+          <hr />
         </div>
       </div>
 
@@ -63,4 +68,4 @@
   <script src="index.js"></script>
 </body>
 
-</html>
+</html>   
